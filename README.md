@@ -1,7 +1,9 @@
-## Repositório para a matéria de Desenvolvimento Microsoft
+# Projetos desenvolvidos na disciplina de Desenvolvimento de Desenvolvimento Microsoft
 
-## UP 2021
----
-## Leonardo Consoli Santiago
-## Segunda-feira - Noite
----
+## Descrição
+Todos os elementos abaixo irão descrever os passos para a utilização do projeto da API (C#) e do FRONT (Angular). 
+___
+
+## Autor
+[Leonardo Consoli Santiago](https://www.linkedin.com/in/leonardocsantiago)
+___
