@@ -1,0 +1,20 @@
+<div>
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" [(ngModel)]="nome" />
+</div>
+<div id="descricao">
+    <label for="descricao">Descrição:</label>
+    <input type="text" name="descricao" [(ngModel)]="descricao" />
+</div>
+<div id="quantidade">
+    <label for="quantidade">Quantidade:</label>
+    <input type="text" name="quantidade" [(ngModel)]="quantidade" />
+</div>
+<div id="preco">
+    <label for="preco">Preço:</label>
+    <input type="text" name="preco" [(ngModel)]="preco" />
+</div>
+<div id="botaoCadastrar">
+    <button (click)="create()">Cadastrar</button>
+</div>
+<a routerLink="/produto/listar">Voltar para a lista</a>

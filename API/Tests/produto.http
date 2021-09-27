@@ -1,0 +1,31 @@
+###
+POST https://localhost:5001/api/produto/create
+Content-Type: application/json
+
+{
+    "Nome" : "Bolacha",
+    "Preco" : 3.5,
+    "Descricao" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "Quantidade" : 150
+}
+
+###
+GET https://localhost:5001/api/produto/list
+
+###
+GET https://localhost:5001/api/produto/getbyid/1
+
+###
+DELETE https://localhost:5001/api/produto/delete/Bolacha
+
+###
+PUT https://localhost:5001/api/produto/update
+Content-Type: application/json
+
+{
+    "Id" : 1,
+    "Nome" : "Produto alterado",
+    "Preco" : 3.5,
+    "Descricao" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "Quantidade" : 150
+}
